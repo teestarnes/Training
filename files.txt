@@ -5,3 +5,5 @@ update.py
 setup.py
 pull.py
 apple.py
+build.py
+refresh.py
