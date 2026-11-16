@@ -38,7 +38,7 @@ def main():
         pass
 
     with open(os.path.join(HERE, ".gitignore"), "w") as f:
-        f.write(".env.local\ndata/\n")
+        f.write(".env.local\ndata/\n*.zip\napple_health_export/\n")
     print("Made .gitignore (keeps .env.local and data/ private).")
 
     for name in SCRIPTS:

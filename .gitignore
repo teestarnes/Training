@@ -2,3 +2,5 @@
 data/
 dashboard.html
 __pycache__/
+*.zip
+apple_health_export/
